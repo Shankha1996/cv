@@ -1,20 +1,111 @@
 body {
-  background-color: #ebefd0;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+
 }
 
-hr {
-  border-style: none;
-  border-top-style: dotted;
-  border-color: #6ba8a9;
-  border-width: 5px;
-  width: 5%;
+.profile-img{
+  border-radius: 100%;
+  height: 200px;
+  width: 200px;
+}
+
+.skill-1{
+  border-radius: 10%;
+  height: 180px;
+  width: 180px;
+}
+
+.skill-2{
+  border-radius: 10%;
+  height: 180px;
+  width: 180px;
+}
+
+.skill-3{
+  boreder-radius: 10%;
+  height: 180px;
+  width: 180px;
+}
+
+p{
+  font-size: 1.25rem;
 }
 
 h1 {
-  text-shadow: 0 0 1em #62929a, 0 0 0.2em #5eb7b7;
+  margin: 50px auto 2.5rem auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 4.6875rem;
+  color: #2c786c;
 
 }
 
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #2c786c;
+  font-weight: normal;
+}
+
 h3 {
-  text-shadow: 0 0 1em #62929a, 0 0 0.2em #5eb7b7
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+
+}
+a{
+  color: #11999E;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-1{
+  width: 25%;
+  float: left;
+  margin: 0 80px 0 0;
+}
+
+.skill-2{
+  width: 25%;
+  float: right;
+  margin: 0 0 0 80px;
+
+}
+
+.skill-3{
+  width: 25%;
+  float: left;
+  margin: 0 80px 0 0;
+}
+
+
+.top-container {
+  background-color: #e4f9ff;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+
+}
+
+.bottom-container {
+
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 380px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 370px;
+  top: 50px;
 }
